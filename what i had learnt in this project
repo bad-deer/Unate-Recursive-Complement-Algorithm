@@ -5,3 +5,9 @@
 linux依然碰到segmentation fault。
 太晚了，明天再说
 
+继续
+用链表存储，遍历要选好判断条件，
+当用m->next当作判定条件时，一定要保证有next一定有val。
+
+printf("%s\n",m->val);
+使用时，要保证m->val是有内容的，否则会产生segamentation fault
